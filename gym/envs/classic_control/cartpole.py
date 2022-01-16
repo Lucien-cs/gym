@@ -3,14 +3,12 @@ Classic cart-pole system implemented by Rich Sutton et al.
 Copied from http://incompleteideas.net/sutton/book/code/pole.c
 permalink: https://perma.cc/C9ZM-652R
 """
-
 import math
 from typing import Optional
+import numpy as np
 
 import gym
 from gym import spaces, logger
-from gym.utils import seeding
-import numpy as np
 
 
 class CartPoleEnv(gym.Env):
